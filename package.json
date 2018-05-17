@@ -1,5 +1,5 @@
 {
-  "name": "ngtemplate-loader",
+  "name": "@biosite/ngtemplate-loader",
   "version": "2.0.1",
   "description": "Include AngularJS templates in the Webpack bundle and preload the template cache.",
   "main": "index.js",
@@ -31,5 +31,8 @@
     "html-loader": "^0.2.2",
     "raw-loader": "^0.5.1",
     "webpack": "^1.7.0"
+  },
+  "publishConfig": {
+    "registry": "http://npm.biositesystems.com/"
   }
 }
